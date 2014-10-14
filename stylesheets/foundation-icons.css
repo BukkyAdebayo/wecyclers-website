@@ -1,0 +1,34 @@
+/*  Foundation Icons v 3.0 Made by ZURB 2013 http://zurb.com/playground/foundation-icon-fonts-3 MIT License */
+
+@font-face {font-family: "foundation-icons"; src: url('../fonts/foundation-icons.eot'); src: url('../fonts/foundation-icons.eot?#iefix') format('embedded-opentype'), url('../fonts/foundation-icons.woff') format("woff"), url('../fonts/foundation-icons.ttf') format("truetype"), url('../fonts/foundation-icons.svg#fontcustom') format("svg"); }
+
+.fi-arrow-up:before,
+.fi-heart:before,
+.fi-mail:before,
+.fi-mobile:before,
+.fi-social-facebook:before,
+.fi-social-instagram:before,
+.fi-social-twitter:before,
+.fi-star:before,
+.fi-telephone:before {
+  font-family: "foundation-icons";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  text-decoration: inherit;
+}
+
+.fi-arrow-up:before { content: "\f10c"; }
+.fi-heart:before {content: "\f159";}
+.fi-mail:before {content: "\f16d";}
+.fi-mobile:before {content: "\f178";}
+.fi-social-facebook:before {content: "\f1c4";}
+.fi-social-instagram:before {content: "\f1cd";}
+.fi-social-twitter:before {content: "\f1e4";}
+.fi-star:before {content: "\f1ee";}
+.fi-telephone:before {content: "\f1f8";}
+
