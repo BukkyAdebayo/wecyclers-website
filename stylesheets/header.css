@@ -16,17 +16,10 @@ body {
  	height: 40px;
 }
 
-.navbar-header{
-	height: 40px;
-}
 .navbar-brand>img{
 	height:40px;
 	padding: 0px;
 	width:auto;
-}
-
-.navbar-right{
-	height:40px;
 }
 
 .navbar-nav>li>a{

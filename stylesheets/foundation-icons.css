@@ -10,7 +10,11 @@
 .fi-social-instagram:before,
 .fi-social-twitter:before,
 .fi-star:before,
-.fi-telephone:before {
+.fi-telephone:before,
+.fi-home:before,
+.fi-torsos-all:before,
+.fi-trees:before,
+.fi-shopping-bag:before {
   font-family: "foundation-icons";
   font-style: normal;
   font-weight: normal;
@@ -31,4 +35,8 @@
 .fi-social-twitter:before {content: "\f1e4";}
 .fi-star:before {content: "\f1ee";}
 .fi-telephone:before {content: "\f1f8";}
+.fi-torsos-all:before { content: "\f200"; }
+.fi-home:before { content: "\f15a"; }
+.fi-trees:before { content: "\f205"; }
+.fi-shopping-bag:before { content: "\f1b0"; }
 

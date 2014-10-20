@@ -9,13 +9,14 @@
     <meta name="author" content="" />
     <link href="images/favicon.ico" rel="icon" type="image/ico" />
 
-    <title>Welcome to Wecyclers</title>
+    <title>Wecyclers</title>
     <link href="stylesheets/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="stylesheets/foundation-icons.css" rel="stylesheet" type="text/css" />
     <link href="stylesheets/carousel.css" rel="stylesheet" type="text/css" />
     <link href="stylesheets/lightbox.css" rel="stylesheet" type="text/css" />
     <link href="stylesheets/header.css" rel="stylesheet" type="text/css" />
     <link href="stylesheets/footer.css" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/index.css" rel="stylesheet" type="text/css" />
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -27,17 +28,16 @@
   ================================================== -->
   <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
-           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <div class="navbar-header">    
+           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
+          <a class="navbar-brand" id='scroll-top' href="#"><img src="images/logo.png"></a>
         </div>
-        <div class="navbar-right">
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <div class="collapse navbar-collapse navbar-right">
             <ul class="nav navbar-nav">
               <li class="active"><a href="#">Home</a></li>
               <li><a href="#about">About</a></li>
@@ -45,7 +45,6 @@
               <li><a href="#Join">Join Us</a></li>
             </ul>
           </div>
-        </div>
       </div>
     </div>
   <!-- Header Ends
@@ -81,69 +80,54 @@
   <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
 </div>
 
-<div id='content'>
+ <!-- Our Impact Section
+  ================================================== -->
+<div id='impact'>
   <div class='container'>
-    <div class='row margin-bottom-md' id='middle'>
-      <div class="col-md-4">
-        <h2 class='smaller-header'>What we do</h2>
-        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-      </div>
-      <div class="col-md-4">
-        <h2 class='smaller-header'>Why We Do It</h2>
-        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-      </div>
-      <div class="col-md-4">
-        <h2 class='smaller-header'>In The News</h2>
-        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-default" href="news.html" role="button">View details &raquo;</a></p>
-      </div>
-    </div>
-    <div class='row recycle-section' id="tag">
-      <div id="recycle">
-        <div class="col-md-4">
-          <h2 class='smaller-header'>How It Works</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          <p><a class="btn btn-default" href="recycle.html#how-it-works" role="button">View details &raquo;</a></p>
+    <h2 class='smaller-header'>Our Impact</h2>
+    <div class='row' id='middle'>
+      <div class="col-md-6">
+        <div class="col-sm-6">
+          <i class="fi-torsos-all"></i>
+          <h4>30,000 beneficiaries affected</h4>
         </div>
-        <div class="col-md-4">
-          <h2 class='smaller-header'>Incentives To Recyclers</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-default" href="recycle.html#incentives" role="button">View details &raquo;</a></p>
+        <div class="col-sm-6">
+          <i class="fi-home"></i>
+          <h4>5,000 Households Served</h4>
         </div>
-        <div class="col-md-4">
-          <h2 class='smaller-header'>Recycling For Corporations</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="recycle.html#for-corporations" role="button">View details &raquo;</a></p>
+      </div>
+      <div class="col-md-6">
+        <div class="col-sm-6">
+          <i class="fi-trees"></i>
+          <h4>300+ tons recycled</h4>
+        </div>
+        <div class="col-sm-6">
+          <i class="fi-shopping-bag"></i>
+          <h4>30+ jobs created</h4>
         </div>
       </div>
     </div>
   </div>
 </div>
+<!-- Our Impact Ends
+  ================================================== -->
 
-<div class='row' id='our-impact'>
-  <a href="javascript:void(0)">
-    <img alt="Our Impact" id="wecyclers-impact" src="/images/impact.png" />
-  </a>
-</div>`
-  <!-- Footer Ends
+
+  <!-- Footer Begins
   ================================================== -->
   <footer class='footer'>
     <div class="row">
-      <div class='col-md-7'>
-        <p>Contact Us</p>
+      <div class='col-md-6'>
+        <h3>Contact Us</h3>
+        <p>
+          <a href="mailto: founders@wecyclers.com"><i class="inline-icon step fi-mail size-32"></i></a>
+          <a href="http://facebook.com/Wecyclers"><i class="inline-icon step fi-social-facebook size-32"></i></a>
+          <a href="https://twitter.com/realwecyclers"><i class="inline-icon step fi-social-twitter size-32"></i></a></p>
         <p>1st Floor, 294 Herbert Macaulay, Yaba, Lagos<p>
-        <p>+234-8120-094324, +234-9097-439630</p>
+        <p>+234 812 009 4324<br/>+234 909 7439 630</p>
         <p>founders@wecyclers.com</p>
       </div>
-      <div class='col-md-5'>
-        <h3>Connect With Us</h3>
-        <a href="mailto: founders@wecyclers.com"><i class="inline-icon step fi-mail size-32"></i></a>
-        <a href="http://facebook.com/Wecyclers"><i class="inline-icon step fi-social-facebook size-32"></i></a>
-        <a href="https://twitter.com/realwecyclers"><i class="inline-icon step fi-social-twitter size-32"></i></a>
-        <a href="javascript:void(0)"><i class="inline-icon step fi-social-instagram size-32"></i></a>
-
+      <div class='col-md-6'>
         <h3>Subscribe to our newsletter</h3>
         <form method="post" id="subscription" action="" enctype="multipart/form-data" class='forms' role='form'>
           <div class='form-group bottom-zero'>
@@ -163,6 +147,7 @@
   </footer>
     <!-- Footer Ends
   ================================================== -->
-  <script src="/javascripts/all.js" type="text/javascript"></script>
+  <script src="javascripts/jquery.min.js"></script>
+   <script src="javascripts/bootstrap.min.js"></script>
   </body>
 </html>
