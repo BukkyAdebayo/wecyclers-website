@@ -1,0 +1,21 @@
+#impact h2{
+	color: #7E4E99;
+	text-align: left;
+}
+
+#impact i{
+	font-size: 150px;
+	line-height: 150px;
+	color:#7e7e7e;
+}
+
+#impact{
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+#impact h4{
+	color: #7e7e7e;
+	padding-top: 0px;
+	padding-bottom: 15px;
+}
