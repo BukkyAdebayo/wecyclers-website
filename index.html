@@ -13,43 +13,41 @@
     <link href="stylesheets/bootstrap.css" rel="stylesheet" type="text/css" />
     <link href="stylesheets/foundation-icons.css" rel="stylesheet" type="text/css" />
     <link href="stylesheets/carousel.css" rel="stylesheet" type="text/css" />
-    <link href="stylesheets/lightbox.css" rel="stylesheet" type="text/css" />
     <link href="stylesheets/header.css" rel="stylesheet" type="text/css" />
     <link href="stylesheets/footer.css" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/site.css" rel="stylesheet" type="text/css" />
+    <link href="stylesheets/lightbox.css" rel="stylesheet" type="text/css" />
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
   <body class="index">
-  
-  <!-- Header Begins
-  ================================================== -->
-  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="navbar-wrapper">
       <div class="container">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
-           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <div class="navbar-right">
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
-              <li><a href="#Media">Press</a></li>
-              <li><a href="#Join">Join Us</a></li>
-            </ul>
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand " id='scroll-top' href="/"><img class="logo" alt="Wecyclers Logo" src="images/logo.png" /></a>
+            </div>
+            <div class="navbar-collapse collapse navbar-right">
+              <ul class="nav navbar-nav">
+                <li id='index-nav'><a href="/">Home</a></li>
+                <li id='about-nav'><a href="about.html">About</a></li>
+                <li id='press-nav'><a href="press.html">Press</a></li>
+                <li id='join-us-nav'><a href="join-us.html">Join Us</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  <!-- Header Ends
-    ================================================== -->
 
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
@@ -59,7 +57,7 @@
   </ol>
   <div class="carousel-inner">
     <div class="item active">
-      <img alt="Picture 1 during awareness campaign" src="/images/a.jpg" />
+      <img alt="Picture 1 during awareness campaign" src="images/a.jpg" />
       <div class="container caption-background">
         <div class="carousel-caption">
           <h3><a href="http://wecyclers.com/?page_id=20" title="Wecyclers, here to make change" class='whiten'>Wecyclers, here to make change</a></h3>
@@ -68,7 +66,7 @@
       </div>
     </div>
     <div class="item">
-      <img alt="Picture 2 during awareness campaign" src="/images/w.jpg" />
+      <img alt="Picture 2 during awareness campaign" src="images/w.jpg" />
       <div class="container caption-background">
         <div class="carousel-caption">
           <h3><a href="http://wecyclers.com/?page_id=20" title="Wecyclers, here to make change" class='whiten'>Another example headline</a></h3>
@@ -82,7 +80,7 @@
 </div>
 
 <div id='content'>
-  <div class='container'>
+  <div class='margin-bottom-zero container'>
     <div class='row margin-bottom-md' id='middle'>
       <div class="col-md-4">
         <h2 class='smaller-header'>What we do</h2>
@@ -90,33 +88,14 @@
         <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
       </div>
       <div class="col-md-4">
-        <h2 class='smaller-header'>Why We Do It</h2>
+        <h2 class='smaller-header'>Incentives To Recyclers</h2>
         <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-        <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <p><a class="btn btn-default" href="recycle.html#incentives" role="button">View details &raquo;</a></p>
       </div>
       <div class="col-md-4">
-        <h2 class='smaller-header'>In The News</h2>
+        <h2 class='smaller-header'>Recycling For Corporations</h2>
         <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-default" href="news.html" role="button">View details &raquo;</a></p>
-      </div>
-    </div>
-    <div class='row recycle-section' id="tag">
-      <div id="recycle">
-        <div class="col-md-4">
-          <h2 class='smaller-header'>How It Works</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          <p><a class="btn btn-default" href="recycle.html#how-it-works" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2 class='smaller-header'>Incentives To Recyclers</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-default" href="recycle.html#incentives" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2 class='smaller-header'>Recycling For Corporations</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="recycle.html#for-corporations" role="button">View details &raquo;</a></p>
-        </div>
+        <p><a class="btn btn-default" href="recycle.html#for-corporations" role="button">View details &raquo;</a></p>
       </div>
     </div>
   </div>
@@ -124,18 +103,37 @@
 
 <div class='row' id='our-impact'>
   <a href="javascript:void(0)">
-    <img alt="Our Impact" id="wecyclers-impact" src="/images/impact.png" />
+    <img alt="Our Impact" id="wecyclers-impact" src="images/impact-sm.png" />
   </a>
-</div>`
-  <!-- Footer Ends
-  ================================================== -->
+</div>
+
+<div class='' id='sponsors'>
+  <div class='container'>
+      <a href='http://wilmerhale.com' class='sponsor'><img alt='sponsored by wilmerhale' src='images/sponsors/Wilmerhale-logo.JPG' /></a>
+      <a href='http://echoinggreen.org/' class='sponsor'><img alt='sponsored by echoinggreen' src='images/sponsors/echoinggreen.jpg' /></a>
+      <a href='http://innovatelagos.com' class='sponsor'><img alt='sponsored by innovatelagos' src='images/sponsors/innovate_w.png' /></a>
+      <a href='http://d-lab.mit.edu/' class='sponsor'><img alt='sponsored by d lab' src='images/sponsors/dlab.jpeg' /></a>
+      <a href='http://nigerianbottlingcompanyltd.com' class='sponsor'><img alt='sponsored by nigerianbottlingcompany' src='images/sponsors/nbc.jpg' /></a>
+      <a href='http://mitsloan.mit.edu' class='sponsor'><img alt='sponsored by mit sloan' src='images/sponsors/mit-sloan.png' /></a>
+  </div>
+
+  <div class='container two'>
+      <a href='http://lawma.gov.ng' class='sponsor'><img alt='sponsored by lawma' src='images/sponsors/lawma.png' /></a>
+      <a href='http://globalchallenge.mit.edu' class='sponsor'><img alt='sponsored by mit ideas global challenge' src='images/sponsors/mit_ideas2.png' /></a>
+      <a href='http://cchubnigeria.com' class='sponsor'><img alt='sponsored by cchub nigeria' src='images/sponsors/cchub.png' /></a>
+      <a href='http://stanbicibtcbank.com' class='sponsor'><img alt='sponsored by stanbic ibtc bank' src='images/sponsors/stanbic.png' /></a>
+      <a href='http://oracle.com' class='sponsor'><img alt='sponsored by oracle' src='images/sponsors/oracle.jpg' /></a>
+      <a href='http://coca-cola.com' class='sponsor'><img alt='sponsored by coca cola' src='images/sponsors/coke.png' /></a>
+  </div>
+</div>
+
   <footer class='footer'>
     <div class="row">
       <div class='col-md-7'>
-        <p>Contact Us</p>
-        <p>1st Floor, 294 Herbert Macaulay, Yaba, Lagos<p>
-        <p>+234-8120-094324, +234-9097-439630</p>
-        <p>founders@wecyclers.com</p>
+        <h3>Contact Us</h3>
+        <h4>1st Floor, 294 Herbert Macaulay, Yaba, Lagos</h4>
+        <h4>+234-8120-094324, +234-9097-439630</h4>
+        <h4>founders@wecyclers.com</h4>
       </div>
       <div class='col-md-5'>
         <h3>Connect With Us</h3>
@@ -161,8 +159,6 @@
       <p class='margin-zero padding-top-sm'>&copy; 2014 Wecyclers, &middot; <a href="http://wecyclers.com">Privacy</a> &middot; <a href="#">Terms</a></p>
     </div>
   </footer>
-    <!-- Footer Ends
-  ================================================== -->
-  <script src="/javascripts/all.js" type="text/javascript"></script>
+  <script src="javascripts/all.js" type="text/javascript"></script>
   </body>
 </html>

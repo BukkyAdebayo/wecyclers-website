@@ -1,0 +1,6 @@
+.job-positions {
+  display: none;
+}
+li.active .job-positions {
+  display: block;
+}
