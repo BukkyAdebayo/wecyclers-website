@@ -1,3 +1,6 @@
+body{
+	font-weight: 300;
+}
 #impact h2{
 	color: #7E4E99;
 	text-align: left;
@@ -18,4 +21,5 @@
 	color: #7e7e7e;
 	padding-top: 0px;
 	padding-bottom: 15px;
+	font-weight: 300;
 }
