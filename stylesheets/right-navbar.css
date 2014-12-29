@@ -1,0 +1,40 @@
+.sidebar{
+	margin-top: 0;
+	margin-bottom: 0;
+	display: block;
+}
+
+
+.sidebar .nav>li>a {
+display: block;
+padding: 4px 20px;
+font-size: 14px;
+font-weight: 500;
+color: #999;
+}
+
+.sidebar .nav .nav>li>a {
+padding-top: 1px;
+padding-bottom: 1px;
+padding-left: 30px;
+font-size: 13px;
+font-weight: 400;
+}
+
+.sidebar .nav>.active>a, .sidebar .nav>.active:hover>a, .sidebar .nav>.active:focus>a {
+padding-left: 18px;
+font-weight: 700;
+color: #563d7c;
+background-color: transparent;
+border-left: 2px solid #563d7c;
+}
+
+.sidebar.affix {
+margin-top: 20px;
+position: fixed;
+top:20px;
+}
+
+.sidebar.affix-bottom {
+position: absolute;
+}
