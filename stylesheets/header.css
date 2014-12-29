@@ -1,5 +1,22 @@
-body {
-  	padding-top: 39px;
+/* some includes and overides for bootstrap */
+
+.navbar-inverse .navbar-text {
+	color: #fff;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+	text-decoration: underline;
+}
+.navbar-inverse .navbar-link,
+.navbar-inverse .navbar-text,
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav > li > a,
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus { 
+	color: #fff;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+	color: #fff; background-color: #8e44ad;
 }
 
 .navbar{
@@ -10,14 +27,12 @@ body {
  	font-size: 16px;
  }
 
-
- .navbar-brand {
- 	padding:0px;
+.navbar-fixed-top .navbar-brand, .navbar-header, .navbar-right, .navbar-brand>img {
  	height: 40px;
+ 	padding:0px;
 }
 
 .navbar-brand>img{
-	height:40px;
 	padding: 0px;
 	width:auto;
 }
@@ -28,19 +43,22 @@ body {
 }
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse
- .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{
-  	color: #FFF;
- 	background-color: #a379bb; 
- 	font-weight: 500;
+.navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+	color: #fff;
+	background-color: #a379bb; 
+	font-weight: 500;
+}
 
- }
+.navbar-inverse .navbar-nav>li>a{
+	color: #ddd;
+}
 
- .navbar-inverse .navbar-nav>li>a{
- 	color: #CCC;
- }
-
- .navbar-inverse
- .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus{
- 	color: #FFF;
- 	background-color: #a379bb; 
- }
+.join-us .nav.navbar-nav #join-us-nav,
+.index .nav.navbar-nav #index-nav,
+.about .nav.navbar-nav #about-nav,
+.press .nav.navbar-nav #press-nav,
+.navbar-inverse .navbar-nav>li>a:focus,
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: #fff;
+	background-color: #a379bb; 
+}
